@@ -14,6 +14,8 @@ const config = {
     APP_CLIENT_ID: import.meta.env.VITE_USER_POOL_CLIENT_ID,
     IDENTITY_POOL_ID: import.meta.env.VITE_IDENTITY_POOL_ID,
   },
+  STRIPE_KEY:
+    "pk_test_51OpZOEKUiDNGUNpfwXZrwYPsuo0GlMjhgkxFSBC1MCVPwdjLe4lIvvvFeO5z0lMRfh5jiJTsis99mX1gU6PtJ26j00eb4uKVJk",
 };
 
 export default config;
